@@ -401,7 +401,7 @@ Do {
             else
                 {
                 Write-Host "PowerForensics Module Required - downloading now" -ForegroundColor Red
-                Copy-Item '\\fb959\c$\inetpub\ftproot\FTP\IDRT_Tools\PowerForensics' -Destination  '%ProgramFiles%\WindowsPowerShell\Modules'
+                Copy-Item '#ENTER LOCATION OF FILES#' -Destination  '%ProgramFiles%\WindowsPowerShell\Modules'
                 sleep -Seconds 5
                 }
                               
